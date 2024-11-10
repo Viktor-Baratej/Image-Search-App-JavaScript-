@@ -15,17 +15,23 @@
   </head>
   <body>
     <main>
-      <form class="form">
-        <input type="text" class="user-input" placeholder="Search images..." />
-        <button type="submit" class="btn">Search</button>
-      </form>
-      <div class="wrapp">
-        <span class="test">Loading images, please wait...</span>
-        <span class="loader"></span>
-      </div>
-      <ul class="gallery"></ul>
-      <div class="btn-load-more">
-        <button type="submit" class="btn-load">Load more</button>
+      <div class="container">
+        <form class="form">
+          <input
+            type="text"
+            class="user-input"
+            placeholder="Search images..."
+          />
+          <button type="submit" class="btn">Search</button>
+        </form>
+        <div class="wrapp">
+          <span class="test">Loading images, please wait...</span>
+          <span class="loader"></span>
+        </div>
+        <ul class="gallery"></ul>
+        <div class="btn-load-more">
+          <button type="submit" class="btn-load">Load more</button>
+        </div>
       </div>
     </main>
     <script type="module" src="./js/pixabay-api.js"></script>
